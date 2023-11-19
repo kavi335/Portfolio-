@@ -1,0 +1,282 @@
+<!doctype html>
+<html>
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Use Bebas Neue font from Google Fonts */
+        @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+        
+        * {
+            font-family: 'Bebas Neue', cursive;
+        }
+        
+       
+        /* Create a circle profile picture with a mouse click animation */
+        .profile {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+            position: relative;
+        }
+        
+        .profile img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease-in-out;
+        }
+        
+        .profile:hover img {
+            transform: scale(1.2);
+        }
+        
+        /* Create a container for the CV content */
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        
+        /* Create a header with name and contact details */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            color: #333333;
+            font-weight: normal; /* Set the font weight of the name */
+        }
+        
+        .header ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .header li {
+            margin-left: 10px;
+        }
+        
+        .header li a {
+            text-decoration: none;
+            color: #333333;
+        }
+        
+        /* Create a section for education details */
+        .education {
+            margin-top: 20px;
+        }
+        
+        .education h2 {
+            font-size: 24px;
+            color: #333333;
+            font-weight: normal;
+        }
+        
+        .education p {
+            font-size: 18px;
+            color: #666666;
+        }
+        
+        /* Create a section for skills details */
+        .skills {
+            margin-top: 20px;
+        }
+        
+        .skills h2 {
+            font-size: 24px;
+            color: #333333;
+            font-weight: normal;
+        }
+        
+        .skills ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .skills li {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            color: #333333;
+            font-size: 18px;
+        }
+        
+        /* Create a section for hobbies details */
+        .hobbies {
+            margin-top: 20px;
+        }
+        
+        .hobbies h2 {
+            font-size: 24px;
+            color: #333333;
+            font-weight: normal;
+        }
+        
+        .hobbies p {
+            font-size: 18px;
+            color: #666666;
+        }
+    </style>
+<style type="text/css" id="dcoder_stylesheet">/* Use Bebas Neue font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Set the background image */
+body {
+    background-image: url("https://images.pexels.com/photos/23474/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a CSS class for the flickering animation */
+@keyframes flicker {
+    0%, 100% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+/* Apply the animation to the profile image */
+.profile img {
+    animation: flicker 5s infinite;
+}
+
+
+/* Add your CSS styles for layout and design here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.section {
+    padding: 20px;
+}
+
+/* Add more styles for sections animations, etc. */
+
+
+
+/* For mobile view: Background image scrolls with content */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}</style></head>
+<body>
+ 
+  <div id="name"></div>
+  
+   <!-- Your HTML content here -->
+    <div class="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmEAYXtuSdJ5DrqfKtDtD5hhMBBw_PKmOosQ&amp;usqp=CAU" alt="Profile picture">
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Kavya.s</h1>
+            <ul>
+                <li><a href=" kavya123456789@gmai.com
+                ">Email</a></li>
+                <li><a href="+91
+                93847 373105
+                ">Phone</a></li>
+            </ul>
+        </div>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <p>I am studying final year bachelor of computer application UG degree in SNGC college.</p>
+        </div>
+        
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>HTML</li>
+               
+            </ul>
+        </div>
+        
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+            <p>I enjoy watching web series and dancing ,I also like reading books and learning new things. Some of my favorite books are The Alchemist, The Power of Now, and The Hitchhiker's Guide to the Galaxy.</p>
+        </div>
+    
+    
+    
+    
+    
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:Suji " "shajahannasar123456789@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                <input type="submit" value="Send Email">
+            </form>
+        </div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+
+</body></html>
